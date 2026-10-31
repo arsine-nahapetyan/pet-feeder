@@ -1,0 +1,73 @@
+/ {
+    aliases {
+        row0 = &row0_pin;
+        row1 = &row1_pin;
+        row2 = &row2_pin;
+        row3 = &row3_pin;
+        col0 = &col0_pin;
+        col1 = &col1_pin;
+        col2 = &col2_pin;
+        step = &step_pin;
+        dir  = &dir_pin;
+        ms1  = &ms1_pin;
+        ms2  = &ms2_pin;
+        ms3  = &ms3_pin;
+    };
+
+    keypad_motor_pins {
+        compatible = "gpio-leds";
+        row0_pin: row0 {
+            gpios = <&gpioa 2 GPIO_ACTIVE_HIGH>;
+        };
+        row1_pin: row1 {
+            gpios = <&gpioc 6 GPIO_ACTIVE_HIGH>;
+        };
+        row2_pin: row2 {
+            gpios = <&gpioa 10 GPIO_ACTIVE_HIGH>;
+        };
+        row3_pin: row3 {
+            gpios = <&gpioc 10 GPIO_ACTIVE_HIGH>;
+        };
+        col0_pin: col0 {
+            gpios = <&gpioa 15 GPIO_ACTIVE_HIGH>;
+        };
+        col1_pin: col1 {
+            gpios = <&gpioa 8 GPIO_ACTIVE_HIGH>;
+        };
+        col2_pin: col2 {
+            gpios = <&gpioc 13 GPIO_ACTIVE_HIGH>;
+        };
+        step_pin: step {
+            gpios = <&gpioc 12 GPIO_ACTIVE_HIGH>;
+        };
+        dir_pin: dir {
+            gpios = <&gpioa 9 GPIO_ACTIVE_HIGH>;
+        };
+        ms1_pin: ms1 {
+            gpios = <&gpioa 4 GPIO_ACTIVE_HIGH>;
+        };
+        ms2_pin: ms2 {
+            gpios = <&gpioa 7 GPIO_ACTIVE_HIGH>;
+        };
+        ms3_pin: ms3 {
+            gpios = <&gpioa 6 GPIO_ACTIVE_HIGH>;
+        };
+    };
+};
+
+&i2c1 {
+    status = "okay";
+    ssd1306: ssd1306@3c {
+        compatible = "solomon,ssd1306";
+        reg = <0x3c>;
+        width = <128>;
+        height = <64>;
+        segment-offset = <0>;
+        page-offset = <0>;
+        display-offset = <0>;
+        multiplex-ratio = <63>;
+        segment-remap;
+        com-invdir;
+        prechargep = <0x22>;
+    };
+};

@@ -1,0 +1,199 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="1000" viewBox="0 0 1320 1000">
+<rect width="1320" height="1000" fill="#ffffff"/>
+<text x="60" y="55" font-size="26" text-anchor="start" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">Automatic Pet Feeder — Wiring Diagram</text>
+<text x="60" y="82" font-size="15" text-anchor="start" font-weight="normal" fill="#57606a" font-family="DejaVu Sans, Arial, sans-serif">NUCLEO-WB55RG · Zephyr RTOS</text>
+<rect x="60" y="115" width="320" height="860" rx="10" fill="#f6f8fa" stroke="#57606a" stroke-width="2"/>
+<rect x="80" y="135" width="120" height="70" rx="6" fill="#24292f"/>
+<text x="140" y="166" font-size="14" text-anchor="middle" font-weight="bold" fill="#fff" font-family="DejaVu Sans, Arial, sans-serif">STM32</text>
+<text x="140" y="186" font-size="14" text-anchor="middle" font-weight="bold" fill="#fff" font-family="DejaVu Sans, Arial, sans-serif">WB55RG</text>
+<text x="80" y="240" font-size="18" text-anchor="start" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">NUCLEO-WB55RG</text>
+<rect x="770" y="145" width="250" height="265" rx="10" fill="#fff8f0" stroke="#e8730c" stroke-width="2"/>
+<rect x="770" y="430" width="250" height="255" rx="10" fill="#f0f7f1" stroke="#1a7f37" stroke-width="2"/>
+<rect x="1095" y="690" width="160" height="85" rx="10" fill="#fff5f5" stroke="#cf222e" stroke-width="2"/>
+<rect x="770" y="715" width="250" height="150" rx="10" fill="#f6f8fa" stroke="#57606a" stroke-width="2"/>
+<line x1="660" y1="664" x2="660" y2="890" stroke="#24292f" stroke-width="3" stroke-linecap="round"/>
+<line x1="700" y1="630" x2="700" y2="924" stroke="#cf222e" stroke-width="3" stroke-linecap="round"/>
+<line x1="380" y1="890" x2="660" y2="890" stroke="#24292f" stroke-width="3" stroke-linecap="round"/>
+<line x1="380" y1="924" x2="700" y2="924" stroke="#cf222e" stroke-width="3" stroke-linecap="round"/>
+<line x1="380" y1="180" x2="770" y2="180" stroke="#e8730c" stroke-width="3" stroke-linecap="round"/>
+<circle cx="380" cy="180" r="4.5" fill="#fff" stroke="#57606a" stroke-width="2"/>
+<text x="366" y="185" font-size="14" text-anchor="end" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">D1</text>
+<text x="320" y="185" font-size="13" text-anchor="end" font-weight="normal" fill="#57606a" font-family="DejaVu Sans Mono, monospace">PA2</text>
+<circle cx="770" cy="180" r="4.5" fill="#fff" stroke="#57606a" stroke-width="2"/>
+<text x="782" y="185" font-size="13" text-anchor="start" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">R1</text>
+<line x1="380" y1="214" x2="770" y2="214" stroke="#e8730c" stroke-width="3" stroke-linecap="round"/>
+<circle cx="380" cy="214" r="4.5" fill="#fff" stroke="#57606a" stroke-width="2"/>
+<text x="366" y="219" font-size="14" text-anchor="end" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">D2</text>
+<text x="320" y="219" font-size="13" text-anchor="end" font-weight="normal" fill="#57606a" font-family="DejaVu Sans Mono, monospace">PC6</text>
+<circle cx="770" cy="214" r="4.5" fill="#fff" stroke="#57606a" stroke-width="2"/>
+<text x="782" y="219" font-size="13" text-anchor="start" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">R2</text>
+<line x1="380" y1="248" x2="770" y2="248" stroke="#e8730c" stroke-width="3" stroke-linecap="round"/>
+<circle cx="380" cy="248" r="4.5" fill="#fff" stroke="#57606a" stroke-width="2"/>
+<text x="366" y="253" font-size="14" text-anchor="end" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">D3</text>
+<text x="320" y="253" font-size="13" text-anchor="end" font-weight="normal" fill="#57606a" font-family="DejaVu Sans Mono, monospace">PA10</text>
+<circle cx="770" cy="248" r="4.5" fill="#fff" stroke="#57606a" stroke-width="2"/>
+<text x="782" y="253" font-size="13" text-anchor="start" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">R3</text>
+<line x1="380" y1="282" x2="770" y2="282" stroke="#e8730c" stroke-width="3" stroke-linecap="round"/>
+<circle cx="380" cy="282" r="4.5" fill="#fff" stroke="#57606a" stroke-width="2"/>
+<text x="366" y="287" font-size="14" text-anchor="end" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">D4</text>
+<text x="320" y="287" font-size="13" text-anchor="end" font-weight="normal" fill="#57606a" font-family="DejaVu Sans Mono, monospace">PC10</text>
+<circle cx="770" cy="282" r="4.5" fill="#fff" stroke="#57606a" stroke-width="2"/>
+<text x="782" y="287" font-size="13" text-anchor="start" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">R4</text>
+<line x1="380" y1="316" x2="770" y2="316" stroke="#1f6feb" stroke-width="3" stroke-linecap="round"/>
+<circle cx="380" cy="316" r="4.5" fill="#fff" stroke="#57606a" stroke-width="2"/>
+<text x="366" y="321" font-size="14" text-anchor="end" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">D5</text>
+<text x="320" y="321" font-size="13" text-anchor="end" font-weight="normal" fill="#57606a" font-family="DejaVu Sans Mono, monospace">PA15</text>
+<circle cx="770" cy="316" r="4.5" fill="#fff" stroke="#57606a" stroke-width="2"/>
+<text x="782" y="321" font-size="13" text-anchor="start" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">C1</text>
+<line x1="380" y1="350" x2="770" y2="350" stroke="#1f6feb" stroke-width="3" stroke-linecap="round"/>
+<circle cx="380" cy="350" r="4.5" fill="#fff" stroke="#57606a" stroke-width="2"/>
+<text x="366" y="355" font-size="14" text-anchor="end" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">D6</text>
+<text x="320" y="355" font-size="13" text-anchor="end" font-weight="normal" fill="#57606a" font-family="DejaVu Sans Mono, monospace">PA8</text>
+<circle cx="770" cy="350" r="4.5" fill="#fff" stroke="#57606a" stroke-width="2"/>
+<text x="782" y="355" font-size="13" text-anchor="start" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">C2</text>
+<line x1="380" y1="384" x2="770" y2="384" stroke="#1f6feb" stroke-width="3" stroke-linecap="round"/>
+<circle cx="380" cy="384" r="4.5" fill="#fff" stroke="#57606a" stroke-width="2"/>
+<text x="366" y="389" font-size="14" text-anchor="end" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">D7</text>
+<text x="320" y="389" font-size="13" text-anchor="end" font-weight="normal" fill="#57606a" font-family="DejaVu Sans Mono, monospace">PC13</text>
+<circle cx="770" cy="384" r="4.5" fill="#fff" stroke="#57606a" stroke-width="2"/>
+<text x="782" y="389" font-size="13" text-anchor="start" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">C3</text>
+<line x1="380" y1="460" x2="770" y2="460" stroke="#1a7f37" stroke-width="3" stroke-linecap="round"/>
+<circle cx="380" cy="460" r="4.5" fill="#fff" stroke="#57606a" stroke-width="2"/>
+<text x="366" y="465" font-size="14" text-anchor="end" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">D8</text>
+<text x="320" y="465" font-size="13" text-anchor="end" font-weight="normal" fill="#57606a" font-family="DejaVu Sans Mono, monospace">PC12</text>
+<circle cx="770" cy="460" r="4.5" fill="#fff" stroke="#57606a" stroke-width="2"/>
+<text x="782" y="465" font-size="13" text-anchor="start" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">STEP</text>
+<line x1="380" y1="494" x2="770" y2="494" stroke="#1a7f37" stroke-width="3" stroke-linecap="round"/>
+<circle cx="380" cy="494" r="4.5" fill="#fff" stroke="#57606a" stroke-width="2"/>
+<text x="366" y="499" font-size="14" text-anchor="end" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">D9</text>
+<text x="320" y="499" font-size="13" text-anchor="end" font-weight="normal" fill="#57606a" font-family="DejaVu Sans Mono, monospace">PA9</text>
+<circle cx="770" cy="494" r="4.5" fill="#fff" stroke="#57606a" stroke-width="2"/>
+<text x="782" y="499" font-size="13" text-anchor="start" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">DIR</text>
+<line x1="380" y1="528" x2="770" y2="528" stroke="#8250df" stroke-width="3" stroke-linecap="round"/>
+<circle cx="380" cy="528" r="4.5" fill="#fff" stroke="#57606a" stroke-width="2"/>
+<text x="366" y="533" font-size="14" text-anchor="end" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">D10</text>
+<text x="320" y="533" font-size="13" text-anchor="end" font-weight="normal" fill="#57606a" font-family="DejaVu Sans Mono, monospace">PA4</text>
+<circle cx="770" cy="528" r="4.5" fill="#fff" stroke="#57606a" stroke-width="2"/>
+<text x="782" y="533" font-size="13" text-anchor="start" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">MS1</text>
+<line x1="380" y1="562" x2="770" y2="562" stroke="#8250df" stroke-width="3" stroke-linecap="round"/>
+<circle cx="380" cy="562" r="4.5" fill="#fff" stroke="#57606a" stroke-width="2"/>
+<text x="366" y="567" font-size="14" text-anchor="end" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">D11</text>
+<text x="320" y="567" font-size="13" text-anchor="end" font-weight="normal" fill="#57606a" font-family="DejaVu Sans Mono, monospace">PA7</text>
+<circle cx="770" cy="562" r="4.5" fill="#fff" stroke="#57606a" stroke-width="2"/>
+<text x="782" y="567" font-size="13" text-anchor="start" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">MS2</text>
+<line x1="380" y1="596" x2="770" y2="596" stroke="#8250df" stroke-width="3" stroke-linecap="round"/>
+<circle cx="380" cy="596" r="4.5" fill="#fff" stroke="#57606a" stroke-width="2"/>
+<text x="366" y="601" font-size="14" text-anchor="end" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">D12</text>
+<text x="320" y="601" font-size="13" text-anchor="end" font-weight="normal" fill="#57606a" font-family="DejaVu Sans Mono, monospace">PA6</text>
+<circle cx="770" cy="596" r="4.5" fill="#fff" stroke="#57606a" stroke-width="2"/>
+<text x="782" y="601" font-size="13" text-anchor="start" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">MS3</text>
+<line x1="651" y1="740" x2="669" y2="740" stroke="#fff" stroke-width="11"/>
+<line x1="691" y1="740" x2="709" y2="740" stroke="#fff" stroke-width="11"/>
+<line x1="380" y1="740" x2="770" y2="740" stroke="#bf8700" stroke-width="3" stroke-linecap="round"/>
+<circle cx="380" cy="740" r="4.5" fill="#fff" stroke="#57606a" stroke-width="2"/>
+<text x="366" y="745" font-size="14" text-anchor="end" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">D14</text>
+<text x="320" y="745" font-size="13" text-anchor="end" font-weight="normal" fill="#57606a" font-family="DejaVu Sans Mono, monospace">PB9</text>
+<circle cx="770" cy="740" r="4.5" fill="#fff" stroke="#57606a" stroke-width="2"/>
+<text x="782" y="745" font-size="13" text-anchor="start" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">SDA</text>
+<line x1="651" y1="774" x2="669" y2="774" stroke="#fff" stroke-width="11"/>
+<line x1="691" y1="774" x2="709" y2="774" stroke="#fff" stroke-width="11"/>
+<line x1="380" y1="774" x2="770" y2="774" stroke="#bf8700" stroke-width="3" stroke-linecap="round"/>
+<circle cx="380" cy="774" r="4.5" fill="#fff" stroke="#57606a" stroke-width="2"/>
+<text x="366" y="779" font-size="14" text-anchor="end" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">D15</text>
+<text x="320" y="779" font-size="13" text-anchor="end" font-weight="normal" fill="#57606a" font-family="DejaVu Sans Mono, monospace">PB8</text>
+<circle cx="770" cy="774" r="4.5" fill="#fff" stroke="#57606a" stroke-width="2"/>
+<text x="782" y="779" font-size="13" text-anchor="start" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">SCL</text>
+<line x1="700" y1="630" x2="770" y2="630" stroke="#cf222e" stroke-width="3" stroke-linecap="round"/>
+<circle cx="700" cy="630" r="5" fill="#cf222e"/>
+<circle cx="770" cy="630" r="4.5" fill="#fff" stroke="#57606a" stroke-width="2"/>
+<line x1="691" y1="664" x2="709" y2="664" stroke="#fff" stroke-width="11"/>
+<line x1="660" y1="664" x2="770" y2="664" stroke="#24292f" stroke-width="3" stroke-linecap="round"/>
+<circle cx="660" cy="664" r="5" fill="#24292f"/>
+<circle cx="770" cy="664" r="4.5" fill="#fff" stroke="#57606a" stroke-width="2"/>
+<line x1="700" y1="808" x2="770" y2="808" stroke="#cf222e" stroke-width="3" stroke-linecap="round"/>
+<circle cx="700" cy="808" r="5" fill="#cf222e"/>
+<circle cx="770" cy="808" r="4.5" fill="#fff" stroke="#57606a" stroke-width="2"/>
+<line x1="691" y1="842" x2="709" y2="842" stroke="#fff" stroke-width="11"/>
+<line x1="660" y1="842" x2="770" y2="842" stroke="#24292f" stroke-width="3" stroke-linecap="round"/>
+<circle cx="660" cy="842" r="5" fill="#24292f"/>
+<circle cx="770" cy="842" r="4.5" fill="#fff" stroke="#57606a" stroke-width="2"/>
+<circle cx="380" cy="890" r="4.5" fill="#fff" stroke="#57606a" stroke-width="2"/>
+<text x="366" y="895" font-size="14" text-anchor="end" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">GND</text>
+<circle cx="380" cy="924" r="4.5" fill="#fff" stroke="#57606a" stroke-width="2"/>
+<text x="366" y="929" font-size="14" text-anchor="end" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">5V</text>
+<circle cx="660" cy="890" r="5" fill="#24292f"/>
+<circle cx="700" cy="924" r="5" fill="#cf222e"/>
+<text x="708" y="945" font-size="13" text-anchor="start" font-weight="bold" fill="#cf222e" font-family="DejaVu Sans, Arial, sans-serif">5 V</text>
+<text x="652" y="945" font-size="13" text-anchor="end" font-weight="bold" fill="#24292f" font-family="DejaVu Sans, Arial, sans-serif">GND</text>
+<text x="895" y="138" font-size="15" text-anchor="middle" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">4×3 Matrix Keypad</text>
+<rect x="865" y="165" width="40" height="40" rx="7" fill="#fff" stroke="#8c959f" stroke-width="1.5"/>
+<text x="885" y="192" font-size="17" text-anchor="middle" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">1</text>
+<rect x="913" y="165" width="40" height="40" rx="7" fill="#fff" stroke="#8c959f" stroke-width="1.5"/>
+<text x="933" y="192" font-size="17" text-anchor="middle" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">2</text>
+<rect x="961" y="165" width="40" height="40" rx="7" fill="#fff" stroke="#8c959f" stroke-width="1.5"/>
+<text x="981" y="192" font-size="17" text-anchor="middle" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">3</text>
+<rect x="865" y="223" width="40" height="40" rx="7" fill="#fff" stroke="#8c959f" stroke-width="1.5"/>
+<text x="885" y="250" font-size="17" text-anchor="middle" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">4</text>
+<rect x="913" y="223" width="40" height="40" rx="7" fill="#fff" stroke="#8c959f" stroke-width="1.5"/>
+<text x="933" y="250" font-size="17" text-anchor="middle" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">5</text>
+<rect x="961" y="223" width="40" height="40" rx="7" fill="#fff" stroke="#8c959f" stroke-width="1.5"/>
+<text x="981" y="250" font-size="17" text-anchor="middle" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">6</text>
+<rect x="865" y="281" width="40" height="40" rx="7" fill="#fff" stroke="#8c959f" stroke-width="1.5"/>
+<text x="885" y="308" font-size="17" text-anchor="middle" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">7</text>
+<rect x="913" y="281" width="40" height="40" rx="7" fill="#fff" stroke="#8c959f" stroke-width="1.5"/>
+<text x="933" y="308" font-size="17" text-anchor="middle" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">8</text>
+<rect x="961" y="281" width="40" height="40" rx="7" fill="#fff" stroke="#8c959f" stroke-width="1.5"/>
+<text x="981" y="308" font-size="17" text-anchor="middle" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">9</text>
+<rect x="865" y="339" width="40" height="40" rx="7" fill="#fff" stroke="#8c959f" stroke-width="1.5"/>
+<text x="885" y="366" font-size="17" text-anchor="middle" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">*</text>
+<rect x="913" y="339" width="40" height="40" rx="7" fill="#fff" stroke="#8c959f" stroke-width="1.5"/>
+<text x="933" y="366" font-size="17" text-anchor="middle" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">0</text>
+<rect x="961" y="339" width="40" height="40" rx="7" fill="#fff" stroke="#8c959f" stroke-width="1.5"/>
+<text x="981" y="366" font-size="17" text-anchor="middle" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">#</text>
+<text x="895" y="422" font-size="15" text-anchor="middle" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">A4988 Stepper Driver</text>
+<text x="782" y="669" font-size="13" text-anchor="start" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">GND</text>
+<text x="782" y="635" font-size="13" text-anchor="start" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">VDD</text>
+<circle cx="1020" cy="470" r="4.5" fill="#fff" stroke="#57606a" stroke-width="2"/>
+<text x="1008" y="475" font-size="13" text-anchor="end" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">1A</text>
+<circle cx="1020" cy="500" r="4.5" fill="#fff" stroke="#57606a" stroke-width="2"/>
+<text x="1008" y="505" font-size="13" text-anchor="end" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">1B</text>
+<circle cx="1020" cy="540" r="4.5" fill="#fff" stroke="#57606a" stroke-width="2"/>
+<text x="1008" y="545" font-size="13" text-anchor="end" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">2A</text>
+<circle cx="1020" cy="570" r="4.5" fill="#fff" stroke="#57606a" stroke-width="2"/>
+<text x="1008" y="575" font-size="13" text-anchor="end" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">2B</text>
+<circle cx="1020" cy="615" r="4.5" fill="#fff" stroke="#57606a" stroke-width="2"/>
+<text x="1008" y="620" font-size="13" text-anchor="end" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">VMOT</text>
+<circle cx="1020" cy="650" r="4.5" fill="#fff" stroke="#57606a" stroke-width="2"/>
+<text x="1008" y="655" font-size="13" text-anchor="end" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">GND</text>
+<circle cx="1170" cy="520" r="52" fill="#f6f8fa" stroke="#57606a" stroke-width="2"/>
+<circle cx="1170" cy="520" r="14" fill="#8c959f"/>
+<text x="1190" y="436" font-size="14" text-anchor="middle" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">Stepper motor</text>
+<text x="1190" y="452" font-size="12" text-anchor="middle" font-weight="normal" fill="#57606a" font-family="DejaVu Sans, Arial, sans-serif">(e.g. NEMA 17)</text>
+<path d="M1020 470 H1070 L1120 490" fill="none" stroke="#24292f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1020 500 H1070 L1120 510" fill="none" stroke="#1a7f37" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1020 540 H1070 L1120 530" fill="none" stroke="#cf222e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1020 570 H1070 L1120 550" fill="none" stroke="#1f6feb" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1076" y="462" font-size="12" text-anchor="start" font-weight="normal" fill="#57606a" font-family="DejaVu Sans, Arial, sans-serif">coil A</text>
+<text x="1076" y="590" font-size="12" text-anchor="start" font-weight="normal" fill="#57606a" font-family="DejaVu Sans, Arial, sans-serif">coil B</text>
+<text x="1175" y="738" font-size="14" text-anchor="middle" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">Motor supply 12V</text>
+<path d="M1020 615 H1135 V690" fill="none" stroke="#cf222e" stroke-width="3" stroke-linejoin="round"/>
+<path d="M1020 650 H1205 V690" fill="none" stroke="#24292f" stroke-width="3" stroke-linejoin="round"/>
+<text x="1129" y="684" font-size="15" text-anchor="end" font-weight="bold" fill="#cf222e" font-family="DejaVu Sans, Arial, sans-serif">+</text>
+<text x="1213" y="684" font-size="15" text-anchor="start" font-weight="bold" fill="#24292f" font-family="DejaVu Sans, Arial, sans-serif">−</text>
+<circle cx="1060" cy="615" r="5" fill="#cf222e"/>
+<circle cx="1060" cy="650" r="5" fill="#24292f"/>
+<line x1="1060" y1="615" x2="1060" y2="626" stroke="#cf222e" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="1050" y1="627" x2="1070" y2="627" stroke="#24292f" stroke-width="3" stroke-linecap="round"/>
+<path d="M1050 638 Q1060 632 1070 638" fill="none" stroke="#24292f" stroke-width="3"/>
+<line x1="1060" y1="636" x2="1060" y2="650" stroke="#24292f" stroke-width="2.5" stroke-linecap="round"/>
+<text x="1076" y="636" font-size="12" text-anchor="start" font-weight="normal" fill="#57606a" font-family="DejaVu Sans, Arial, sans-serif">100 µF</text>
+<path d="M1175 775 V890 H660" fill="none" stroke="#24292f" stroke-width="3" stroke-dasharray="7 6" stroke-linejoin="round"/>
+<text x="1085" y="882" font-size="12" text-anchor="end" font-weight="normal" fill="#57606a" font-family="DejaVu Sans, Arial, sans-serif">common ground</text>
+<text x="895" y="708" font-size="15" text-anchor="middle" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">SSD1306 OLED 128×64 (I2C, 0x3C)</text>
+<rect x="845" y="730" width="160" height="90" rx="4" fill="#0d1117"/>
+<text x="854" y="756" font-size="13" text-anchor="start" font-weight="normal" fill="#58a6ff" font-family="DejaVu Sans Mono, monospace">Time  12:30</text>
+<text x="854" y="780" font-size="13" text-anchor="start" font-weight="normal" fill="#58a6ff" font-family="DejaVu Sans Mono, monospace">Feed  18:00</text>
+<text x="854" y="804" font-size="13" text-anchor="start" font-weight="normal" fill="#58a6ff" font-family="DejaVu Sans Mono, monospace">#feed 0/*set</text>
+<text x="782" y="813" font-size="13" text-anchor="start" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">VCC</text>
+<text x="782" y="847" font-size="13" text-anchor="start" font-weight="bold" fill="#1f2328" font-family="DejaVu Sans, Arial, sans-serif">GND</text>
+</svg>
